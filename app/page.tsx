@@ -12,12 +12,6 @@ import { Mail, LayoutDashboard, ArrowRight } from 'lucide-react';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
-      <nav className="border-b bg-white/50 backdrop-blur-sm dark:bg-slate-950/50">
-        <div className="container mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold">Contact Manager</h1>
-        </div>
-      </nav>
-
       <div className="container mx-auto px-4 py-16">
         <div className="mx-auto max-w-4xl space-y-8">
           <div className="text-center space-y-4">
